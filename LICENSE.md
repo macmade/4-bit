@@ -156,7 +156,7 @@ its personnel of the modified Documentation or any Product, or any
 kind of implication by the Licensor or its personnel in the
 preparation of the modified Documentation or Product.
 
-**6.3. CERN** may publish updated versions of this Licence which retain
+**6.3.** CERN may publish updated versions of this Licence which retain
 the same general provisions as this version, but differ in detail so
 far this is required and reasonable. New versions will be published
 with a unique version number.
