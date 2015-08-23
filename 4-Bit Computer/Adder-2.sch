@@ -43,4 +43,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 2200 2000 0    60   Input ~ 0
+A2
+Text HLabel 2200 2200 0    60   Input ~ 0
+B2
+Text HLabel 2200 2400 0    60   Input ~ 0
+C1
+Text HLabel 2200 2600 0    60   Input ~ 0
+S2
+Text HLabel 2200 2800 0    60   Input ~ 0
+C2
 $EndSCHEMATC
