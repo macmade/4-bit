@@ -9,12 +9,20 @@
 About
 -----
 
-...
+This learning project consists of a 4-bit adder, using NPN transistors.  
+Inspiration comes from www.waitingforfriday.com.
+
+The goal is to create a complete project using KiCad: schematics and PCB.  
+Components will be ordered from Mouser; PCB will be ordered from OSH Park.
 
 ### Software
 
 Schemas and PCB layouts are created with KiCad:  
 http://www.kicad-pcb.org
+
+### Bill Of Materials
+
+...
 
 
 License
