@@ -1,4 +1,4 @@
-update=2015 August 23, Sunday 20:18:44
+update=2015 August 24, Monday 19:33:48
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,10 @@ version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=XS.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
