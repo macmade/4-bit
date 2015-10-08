@@ -666,17 +666,6 @@ F 3 "" H 2200 3750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +9V #PWR?
-U 1 1 55DC57CB
-P 1800 3250
-F 0 "#PWR?" H 1800 3100 50  0001 C CNN
-F 1 "+9V" H 1800 3390 50  0000 C CNN
-F 2 "" H 1800 3250 60  0000 C CNN
-F 3 "" H 1800 3250 60  0000 C CNN
-	1    1800 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 55DC591A
 P 1800 3750
@@ -888,12 +877,12 @@ Wire Wire Line
 	2600 5950 2800 5950
 Connection ~ 2600 5450
 Wire Wire Line
-	2500 6250 2500 850 
+	2500 850  2500 6250
 Wire Wire Line
 	1800 3650 2800 3650
 Connection ~ 2500 3650
 Wire Wire Line
-	2500 6250 8600 6250
+	8600 6250 2500 6250
 Wire Wire Line
 	5200 5850 5100 5850
 Wire Wire Line
@@ -1122,4 +1111,15 @@ Connection ~ 5200 6250
 Connection ~ 5200 5850
 Connection ~ 5200 5350
 Connection ~ 5200 4850
+$Comp
+L +5V #PWR?
+U 1 1 56178A1A
+P 1800 3250
+F 0 "#PWR?" H 1800 3100 50  0001 C CNN
+F 1 "+5V" H 1800 3390 50  0000 C CNN
+F 2 "" H 1800 3250 60  0000 C CNN
+F 3 "" H 1800 3250 60  0000 C CNN
+	1    1800 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
