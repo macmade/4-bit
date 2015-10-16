@@ -1,4 +1,4 @@
-update=2015 August 24, Monday 21:27:53
+update=2015 October 16, Friday 13:40:48
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,7 +60,7 @@ LibName29=valves
 version=1
 [schematic_editor]
 version=1
-PageLayoutDescrFile=XS.kicad_wks
+PageLayoutDescrFile=XS.pretty/XS.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
