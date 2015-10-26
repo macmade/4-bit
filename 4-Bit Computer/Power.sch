@@ -68,12 +68,12 @@ $EndComp
 $Comp
 L BARREL_JACK J1
 U 1 1 56183B64
-P 3950 4400
-F 0 "J1" H 3950 4650 60  0000 C CNN
-F 1 "+12v" H 3950 4200 60  0000 C CNN
-F 2 "XS:Power-Adafruit-DC-Barrel-Jack" H 3950 4400 60  0001 C CNN
-F 3 "" H 3950 4400 60  0000 C CNN
-	1    3950 4400
+P 3350 4400
+F 0 "J1" H 3350 4650 60  0000 C CNN
+F 1 "+12v" H 3350 4200 60  0000 C CNN
+F 2 "XS:Power-Adafruit-DC-Barrel-Jack" H 3350 4400 60  0001 C CNN
+F 3 "" H 3350 4400 60  0000 C CNN
+	1    3350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -206,13 +206,7 @@ Wire Wire Line
 	6850 4400 6850 3300
 Connection ~ 6850 3500
 Wire Wire Line
-	4250 4500 5200 4500
-Wire Wire Line
 	4350 3400 4350 4950
-Wire Wire Line
-	4250 4400 4750 4400
-Wire Wire Line
-	4750 4400 4750 4300
 Wire Wire Line
 	4750 3400 4750 4000
 Wire Wire Line
@@ -237,9 +231,6 @@ Connection ~ 5900 3900
 Wire Wire Line
 	5800 4400 7900 4400
 Wire Wire Line
-	4350 4300 4250 4300
-Connection ~ 4350 4300
-Wire Wire Line
 	5400 4950 5500 4950
 Wire Wire Line
 	5800 4600 5900 4600
@@ -250,17 +241,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 4950 5000 4950
 Connection ~ 6850 4400
-$Comp
-L PWR_FLAG #FLG092
-U 1 1 56194916
-P 5400 2900
-F 0 "#FLG092" H 5400 2995 50  0001 C CNN
-F 1 "PWR_FLAG" H 5400 3080 50  0000 C CNN
-F 2 "" H 5400 2900 60  0000 C CNN
-F 3 "" H 5400 2900 60  0000 C CNN
-	1    5400 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C2
 U 1 1 5619B6CB
@@ -299,9 +279,6 @@ Wire Wire Line
 Connection ~ 4750 3000
 Connection ~ 5900 4400
 Connection ~ 7700 3000
-Wire Wire Line
-	5400 2900 5400 3000
-Connection ~ 5400 3000
 $Comp
 L LM7805 VR1
 U 1 1 5619C421
@@ -317,4 +294,69 @@ Text HLabel 7900 3000 2    60   Output ~ 0
 Vin
 Text HLabel 7900 4400 2    60   Input ~ 0
 Vout
+$Comp
+L +5V #PWR?
+U 1 1 562EA9C2
+P 7800 2900
+F 0 "#PWR?" H 7800 2750 50  0001 C CNN
+F 1 "+5V" H 7800 3040 50  0000 C CNN
+F 2 "" H 7800 2900 60  0000 C CNN
+F 3 "" H 7800 2900 60  0000 C CNN
+	1    7800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2900 7800 3000
+Connection ~ 7800 3000
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 562EAD28
+P 4100 4600
+F 0 "#FLG?" H 4100 4695 50  0001 C CNN
+F 1 "PWR_FLAG" H 4100 4780 50  0000 C CNN
+F 2 "" H 4100 4600 60  0000 C CNN
+F 3 "" H 4100 4600 60  0000 C CNN
+	1    4100 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 562EAD6C
+P 4100 4200
+F 0 "#FLG?" H 4100 4295 50  0001 C CNN
+F 1 "PWR_FLAG" H 4100 4380 50  0000 C CNN
+F 2 "" H 4100 4200 60  0000 C CNN
+F 3 "" H 4100 4200 60  0000 C CNN
+	1    4100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 562EADB0
+P 3750 4600
+F 0 "#PWR?" H 3750 4350 50  0001 C CNN
+F 1 "GND" H 3750 4450 50  0000 C CNN
+F 2 "" H 3750 4600 60  0000 C CNN
+F 3 "" H 3750 4600 60  0000 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4500 5200 4500
+Wire Wire Line
+	4100 4600 4100 4500
+Connection ~ 4100 4500
+Wire Wire Line
+	3750 4600 3750 4500
+Connection ~ 3750 4500
+Wire Wire Line
+	3650 4300 4350 4300
+Connection ~ 4350 4300
+Wire Wire Line
+	4100 4200 4100 4300
+Connection ~ 4100 4300
+Wire Wire Line
+	3650 4400 4750 4400
+Wire Wire Line
+	4750 4400 4750 4300
 $EndSCHEMATC
